@@ -47,17 +47,6 @@ export default function EquipePage() {
                 Pesquisador principal dos projetos de numismática e defixiones.
               </p>
             </div>
-            <div className="card" style={{ borderTop: "4px solid var(--color-gold)" }}>
-              <p className="tag" style={{ marginBottom: "0.75rem" }}>Coordenadora Adjunta</p>
-              <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "1.2rem", color: "var(--color-primary)", marginBottom: "0.5rem" }}>
-                Prof.ª Cristina Agostini
-              </h3>
-              <p style={{ fontSize: "0.92rem", color: "var(--color-text-muted)", lineHeight: "1.65" }}>
-                UFMS / FACH, Campo Grande, MS.<br />
-                Coordenadora adjunta do grupo de pesquisa ATRIVM.<br />
-                Pesquisadora nas linhas de cultura material e Antiguidade.
-              </p>
-            </div>
           </div>
 
           <h2 className="section-title">Pesquisadores</h2>

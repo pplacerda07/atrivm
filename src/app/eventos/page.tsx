@@ -133,7 +133,7 @@ export default function EventosPage() {
             <a href="https://www.instagram.com/atrivmufms/" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
               Instagram
             </a>
-            <a href="https://www.youtube.com/@atrivmufms" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+            <a href="https://www.youtube.com/@CANALATRIVMUFMS" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
               YouTube
             </a>
           </div>

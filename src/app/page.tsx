@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./page.module.css";
 
-const LOGO_SRC = "/ATRIVM%20sem%20fundo_qualidade%20de%20impressao%20grafica.png";
+const LOGO_SRC = "/atrivm-logo.png";
 
 const stats = [
   { num: "2018", label: "Ano de fundação" },
@@ -106,12 +106,12 @@ export default function Home() {
               <p className={styles.heroEyebrow}>UFMS · FACH · Campo Grande, MS</p>
               <h1 className={styles.heroTitle}>ATRIVM</h1>
               <p className={styles.heroSlogan}>
-                Espaço Interdisciplinar de Estudos da Antiguidade
+                Laboratório de estudos interdisciplinares da Antiguidade
               </p>
               <p className={styles.heroDesc}>
-                Laboratório de pesquisa interdisciplinar vinculado à Universidade Federal
-                de Mato Grosso do Sul. Arqueologia, Numismática, Humanidades Digitais
-                e Estudos Clássicos, desde 2018.
+                Laboratório de estudos interdisciplinares vinculado à Universidade Federal
+                de Mato Grosso do Sul. Áreas de investigação: Arqueologia, Numismática,
+                Patrimônio Cultural, Humanidades Digitais e Estudos Clássicos, desde 2018.
               </p>
               <div className={styles.heroCtas}>
                 <Link href="/sobre" className="btn btn-primary">

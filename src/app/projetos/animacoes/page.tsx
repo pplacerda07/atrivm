@@ -86,7 +86,7 @@ export default function AnimacoesPage() {
                     </span>
                     <span style={{ fontSize: "0.95rem", color: "var(--color-text)" }}>{ep}</span>
                     <a
-                      href="https://www.youtube.com/@atrivmufms"
+                      href="https://www.youtube.com/@CANALATRIVMUFMS"
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ marginLeft: "auto", fontSize: "0.82rem", fontWeight: 700, color: "var(--color-gold)", letterSpacing: "0.04em", textTransform: "uppercase", fontFamily: "var(--font-sans)" }}
@@ -109,7 +109,7 @@ export default function AnimacoesPage() {
             Todas as animações estão disponíveis gratuitamente no canal oficial do ATRIVM UFMS no YouTube.
           </p>
           <a
-            href="https://www.youtube.com/@atrivmufms"
+            href="https://www.youtube.com/@CANALATRIVMUFMS"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"

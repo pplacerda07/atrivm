@@ -45,3 +45,7 @@ public/*.png
 public/*.jpg
 public/*.jpeg
 public/*.webp
+# exceptions: assets used directly no site
+!public/atrivm-logo.png
+!public/capas/
+!public/capas/*

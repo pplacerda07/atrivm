@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./Footer.module.css";
 
-const LOGO_SRC = "/ATRIVM%20sem%20fundo_qualidade%20de%20impressao%20grafica.png";
+const LOGO_SRC = "/atrivm-logo.png";
 
 const IconInstagram = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -57,7 +57,7 @@ export default function Footer() {
               <a href="https://www.facebook.com/atriumufms" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="Facebook">
                 <IconFacebook />
               </a>
-              <a href="https://www.youtube.com/@atrivmufms" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="YouTube">
+              <a href="https://www.youtube.com/@CANALATRIVMUFMS" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="YouTube">
                 <IconYouTube />
               </a>
               <a href="https://open.spotify.com/show/1T6yz5WZ3UvKLx5d54ejLe" target="_blank" rel="noopener noreferrer" className={styles.socialLink} aria-label="Spotify">

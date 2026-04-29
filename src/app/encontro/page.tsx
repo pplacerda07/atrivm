@@ -154,7 +154,7 @@ export default function EncontroPage() {
             ))}
           </div>
           <div style={{ marginTop: "3rem", textAlign: "center" }}>
-            <a href="https://www.youtube.com/@atrivmufms" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ marginRight: "1rem" }}>
+            <a href="https://www.youtube.com/@CANALATRIVMUFMS" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ marginRight: "1rem" }}>
               Assistir gravações no YouTube
             </a>
             <Link href="/contato" className="btn btn-outline">

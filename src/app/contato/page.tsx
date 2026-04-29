@@ -67,7 +67,7 @@ export default function ContatoPage() {
                   {[
                     { label: "Instagram", url: "https://www.instagram.com/atrivmufms/", handle: "@atrivmufms" },
                     { label: "Facebook", url: "https://www.facebook.com/atriumufms", handle: "Atriumufms" },
-                    { label: "YouTube", url: "https://www.youtube.com/@atrivmufms", handle: "@atrivmufms" },
+                    { label: "YouTube", url: "https://www.youtube.com/@CANALATRIVMUFMS", handle: "@atrivmufms" },
                     { label: "Sketchfab", url: "https://skfb.ly/psFYU", handle: "ATRIVM UFMS" },
                   ].map((soc) => (
                     <a key={soc.label} href={soc.url} target="_blank" rel="noopener noreferrer" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0.65rem 1rem", background: "var(--color-white)", border: "1px solid var(--color-border)", fontSize: "0.9rem", transition: "border-color 0.2s" }}>

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import styles from "./Navbar.module.css";
 
-const LOGO_SRC = "/ATRIVM%20sem%20fundo_qualidade%20de%20impressao%20grafica.png";
+const LOGO_SRC = "/atrivm-logo.png";
 
 const labLinks = [
   { href: "/sobre", label: "Sobre o laboratório" },
