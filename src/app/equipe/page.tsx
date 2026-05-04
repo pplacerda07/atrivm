@@ -44,7 +44,24 @@ export default function EquipePage() {
               <p style={{ fontSize: "0.92rem", color: "var(--color-text-muted)", lineHeight: "1.65" }}>
                 UFMS / FACH, Campo Grande, MS.<br />
                 Bolsista de Produtividade CNPq, PQ2 (2023–2026).<br />
-                Pesquisador principal dos projetos de numismática e defixiones.
+                Pesquisador principal dos projetos de numismática e defixiones.<br />
+                <a href="http://lattes.cnpq.br/7804720022724209" target="_blank" rel="noopener noreferrer" style={{ color: "var(--color-gold)", textDecoration: "underline", marginTop: "0.5rem", display: "inline-block", fontWeight: 600 }}>
+                  Acessar Currículo Lattes
+                </a>
+              </p>
+            </div>
+            <div className="card" style={{ borderTop: "4px solid var(--color-gold)" }}>
+              <p className="tag" style={{ marginBottom: "0.75rem" }}>Vice-Coordenadora</p>
+              <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "1.2rem", color: "var(--color-primary)", marginBottom: "0.5rem" }}>
+                Profª. Drª. Lia Raquel Toledo Brambilla Gasques
+              </h3>
+              <p style={{ fontSize: "0.92rem", color: "var(--color-text-muted)", lineHeight: "1.65" }}>
+                Arqueóloga e Professora Adjunta na Universidade Federal de Mato Grosso do Sul e Pró-Reitora de Extensão Cultura e Esporte da mesma Universidade.<br />
+                Membro da cátedra UNESCO de Humanidades: Fronteiras e Migrações.<br />
+                Tem experiência na área de Arqueologia, atuando principalmente nos seguintes temas: Educação, Arqueologia, Patrimônio de Mato Grosso do Sul.<br />
+                <a href="http://lattes.cnpq.br/7804720022724209" target="_blank" rel="noopener noreferrer" style={{ color: "var(--color-gold)", textDecoration: "underline", marginTop: "0.5rem", display: "inline-block", fontWeight: 600 }}>
+                  Acessar Currículo Lattes
+                </a>
               </p>
             </div>
           </div>

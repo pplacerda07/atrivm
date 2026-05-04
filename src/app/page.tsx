@@ -222,7 +222,7 @@ export default function Home() {
             <div>
               <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
                 {[
-                  { title: "Único no Centro-Oeste", desc: "Único laboratório com acervo numismático disponível para visitação na região Centro-Oeste do Brasil." },
+                  { title: "Reconhecimento Institucional", desc: "O laboratório é registrado no IBRAM (Visite Museus), na Rede Brasileira de Coleções e Museus Universitários, no Sistema Estadual de Museus de Mato Grosso do Sul e sendo o único do gênero disponível para visitação na região Centro-Oeste." },
                   { title: "Financiamento CNPq", desc: "Bolsa de Produtividade PQ2 e projetos de pesquisa financiados pelo CNPq, FUNDECT-MS e UFMS." },
                   { title: "Cooperação Internacional", desc: "Acordos com Universidade do Minho (PT), Nova FCSH e Município de Alter do Chão (PT)." },
                 ].map((item) => (

@@ -11,13 +11,13 @@ const lines = [
     num: "01",
     title: "Discursos literários e imagéticos da Antiguidade",
     desc: "Análise de obras escritas e artísticas no campo simbólico e cultural do mundo antigo. Esta linha investiga como as sociedades da Antiguidade produziram e circularam textos, imagens e representações, e como essas produções revelam estruturas de poder, religiosidade, identidade e valores culturais.",
-    temas: ["Literatura greco-romana", "Iconografia e numismática", "Mitologia e religião", "Arte antiga", "Epigrafia"],
+    temas: ["Literatura Clássica", "Iconografia", "Mitologia", "Religiosidade", "História da Arte"],
   },
   {
     num: "02",
     title: "Produção, circulação e visibilidade da cultura material na Antiguidade",
     desc: "Estudo de objetos e coleções arqueológicas com foco na interpretação e contextualização histórica. A linha abrange desde objetos cotidianos até peças museológicas de alto valor histórico, articulando arqueologia, museologia e história.",
-    temas: ["Arqueologia mediterrânea", "Numismática histórica", "Acervos universitários", "Fotogrametria 3D", "Patrimônio cultural"],
+    temas: ["Arqueologia Mediterrânea", "Numismática", "Epigrafia", "Ceramologia", "Arqueologia"],
   },
   {
     num: "03",
