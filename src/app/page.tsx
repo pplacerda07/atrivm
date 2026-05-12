@@ -118,10 +118,10 @@ export default function Home() {
               <p className={styles.heroEyebrow}>UFMS · FACH · Campo Grande, MS</p>
               <h1 className={styles.heroTitle}>ATRIVM</h1>
               <p className={styles.heroSlogan}>
-                Laboratório de estudos interdisciplinares da Antiguidade
+                Laboratório de Estudos Interdisciplinares da Antiguidade
               </p>
               <p className={styles.heroDesc}>
-                Laboratório de estudos interdisciplinares vinculado à Universidade Federal
+                Laboratório de Estudos Interdisciplinares vinculado à Universidade Federal
                 de Mato Grosso do Sul. Áreas de investigação: Arqueologia, Numismática,
                 Patrimônio Cultural, Humanidades Digitais e Estudos Clássicos, desde 2018.
               </p>
