@@ -35,25 +35,37 @@ const researchLines = [
 
 const newsItems = [
   {
-    title: "Curso de Aperfeiçoamento: Cultura Material e Ensino de História",
-    date: "2025",
-    type: "Curso",
-    desc: "Possibilidades pedagógicas para professores da educação básica e pesquisadores. Parceria entre ATRIVM, PPGAS/UFMS e PROFHIST/UEMS.",
-    img: null,
+    title: "Lançamento — Uma Moeda de Cada Vez! Episódio 6",
+    date: "23 mai. 2026",
+    type: "Lançamento",
+    desc: "Edição especial para a 24ª Semana Nacional de Museus: numismática como ferramenta de divulgação científica e educação patrimonial. Apoio: CNPq · FUNDECT · IBRAM.",
+    img: "/eventos/ep6.jpg",
+    placeholderIcon: "🪙",
+    placeholderLabel: "EP. 6",
+    placeholderBg: "linear-gradient(135deg, #0d3b5e 0%, #007b7b 100%)",
+    link: "https://www.instagram.com/p/DYNOIe0kTtE/",
   },
   {
-    title: "Registros da Sessão de Conferências 1: Experiências Patrimoniais",
-    date: "2025",
-    type: "Conferência",
-    desc: "Conferência da Profa. Dra. Fernanda Magalhães (Universidade do Minho) sobre arqueologia urbana em Braga, Portugal.",
-    img: null,
+    title: "Lançamento do Novo Site do ATRIVM / UFMS",
+    date: "20 mai. 2026",
+    type: "Lançamento",
+    desc: "O ATRIVM/UFMS apresenta seu novo site institucional como espaço de divulgação científica, reunindo projetos, acervo, eventos, publicações e parcerias.",
+    img: "/eventos/site-atrivm.jpg",
+    placeholderIcon: "🌐",
+    placeholderLabel: null,
+    placeholderBg: "linear-gradient(135deg, var(--color-primary) 0%, #2a3d6e 100%)",
+    link: "https://visite.museus.gov.br/24a-semana-nacional-de-museus/lancamento-do-novo-site-do-atrivm-ufms/",
   },
   {
-    title: "Webinários ATRIVM: 2, 6 e 7 de junho de 2025",
-    date: "Junho 2025",
-    type: "Webinário",
-    desc: "Série de webinários online com pesquisadores nacionais e internacionais, transmitidos ao vivo pelo YouTube.",
-    img: null,
+    title: "Exposição: Um Dia no Museu — do Escambo ao Pix",
+    date: "18 e 19 mai. 2026",
+    type: "Exposição",
+    desc: "Moedas e cédulas como fontes históricas para explorar a história econômica, o patrimônio e a memória social.",
+    img: "/eventos/exposicao-museu.jpg",
+    placeholderIcon: "🏛️",
+    placeholderLabel: null,
+    placeholderBg: "linear-gradient(135deg, #1a6b8a 0%, #0d4f68 100%)",
+    link: "https://visite.museus.gov.br/24a-semana-nacional-de-museus/um-dia-no-museu-do-escambo-ao-pix/",
   },
 ];
 
@@ -251,19 +263,33 @@ export default function Home() {
             {newsItems.map((item) => (
               <div key={item.title} className={styles.newsCard}>
                 <div className={styles.newsCardImg}>
-                  {item.img ? (
-                    <img src={item.img} alt={item.title} />
-                  ) : (
-                    <div className={styles.newsCardImgPlaceholder}>
-                      <span className={styles.newsCardImgLogo}>ATRIVM</span>
+                  <div
+                    className={styles.newsCardImgPlaceholder}
+                    style={{ background: item.placeholderBg }}
+                  >
+                    <div className={styles.newsCardVisual}>
+                      <span className={styles.newsCardVisualIcon}>{item.placeholderIcon}</span>
+                      {item.placeholderLabel && (
+                        <span className={styles.newsCardVisualLabel}>{item.placeholderLabel}</span>
+                      )}
                     </div>
-                  )}
+                  </div>
                   <span className={styles.newsCardType}>{item.type}</span>
                 </div>
                 <div className={styles.newsCardBody}>
                   <p className={styles.newsCardDate}>{item.date}</p>
                   <h3 className={styles.newsCardTitle}>{item.title}</h3>
                   <p className={styles.newsCardDesc}>{item.desc}</p>
+                  {item.link && (
+                    <a
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.newsCardLink}
+                    >
+                      Saiba mais →
+                    </a>
+                  )}
                 </div>
               </div>
             ))}

@@ -320,6 +320,27 @@
   letter-spacing: 0.1em;
 }
 
+.newsCardVisual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.newsCardVisualIcon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.newsCardVisualLabel {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
 .newsCardType {
   position: absolute;
   bottom: 0.75rem;
@@ -364,6 +385,20 @@
   color: var(--color-text-muted);
   line-height: 1.65;
   flex: 1;
+}
+
+.newsCardLink {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  font-family: var(--font-sans);
+  letter-spacing: 0.04em;
+  margin-top: 0.75rem;
+  display: inline-block;
+}
+
+.newsCardLink:hover {
+  color: var(--color-gold);
 }
 
 .ctaBanner {

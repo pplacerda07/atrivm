@@ -44,7 +44,7 @@ export default function Navbar() {
             <img src={LOGO_SRC} alt="ATRIVM UFMS" className={styles.logoImg} />
             <div className={styles.logoText}>
               <span className={styles.logoName}>ATRIVM</span>
-              <span className={styles.logoSub}>UFMS · Estudos da Antiguidade</span>
+              <span className={styles.logoSub}>UFMS · Estudos Interdisciplinares da Antiguidade</span>
             </div>
           </Link>
 
