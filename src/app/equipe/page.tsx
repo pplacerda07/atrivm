@@ -9,7 +9,7 @@ const researchers = [
   "André Luiz Marcondes Pelegrinelli (UFMS)",
   "André da Silva Bueno (UERJ)",
   "Airan dos Santos Borges de Oliveira (UFRN)",
-  "Alex da Silva Martire (UPF)",
+  "Alex da Silva Martire (FURG)",
   "Arlete José Mota (UFRJ)",
   "Arthur Rodrigues (UFRJ)",
   "Camila Diogo de Souza (UNIFESP)",
@@ -150,9 +150,18 @@ export default function EquipePage() {
                   lineHeight: "1.65",
                 }}
               >
-                UFMS / FACH, Campo Grande, MS.<br />
-                Bolsista de Produtividade CNPq, PQ2 (2023–2026).<br />
-                Pesquisador principal dos projetos de numismática e defixiones.<br />
+                Professor Adjunto de Arqueologia e História Antiga da Faculdade de Ciências
+                Humanas da Universidade Federal do Mato Grosso do Sul (FACH/UFMS). Membro do
+                Programa de Pós-Graduação em Ensino de História da Universidade Estadual de Mato
+                Grosso do Sul e do Programa de Pós-Graduação em Antropologia Social da UFMS, na
+                área de concentração em Arqueologia, na qual atua como coordenador da linha.
+                Efetuou estágio de Pós-doutorado em Arqueologia e atua como pesquisador estrangeiro
+                na Universidade do Minho, assim como pesquisador do Museu Histórico Nacional e do
+                Museu de Arqueologia da UFMS. Bolsista de Produtividade CNPq – PQ2, membro do ICOM,
+                da APHELEIA, membro científico da Sociedade Numismática Brasileira e da direção da
+                Sociedade de Arqueologia Brasileira – Regional Centro Oeste. Responsável Técnico
+                pelo Laboratório de Estudos Interdisciplinares da Antiguidade — ATRIVM / UFMS e a
+                sua Coleção Científica de Numismática.<br />
                 <a
                   href="http://lattes.cnpq.br/7804720022724209"
                   target="_blank"

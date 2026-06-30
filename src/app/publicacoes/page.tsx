@@ -5,7 +5,17 @@ export const metadata: Metadata = {
   description: "Publicações acadêmicas do laboratório ATRIVM UFMS disponíveis para download.",
 };
 
-const publications = [
+type Publication = {
+  title: string;
+  authors: string;
+  publisher: string;
+  year: string;
+  type: string;
+  cover: string | null;
+  link?: string;
+};
+
+const publications: Publication[] = [
   {
     title: "Ensino de História Antiga",
     authors: "André Bueno · Carlos Eduardo Campos · Airan Borges",
@@ -84,7 +94,7 @@ const publications = [
     publisher: "Desalinho",
     year: "",
     type: "Material Didático",
-    cover: null,
+    cover: "/capas/um-dia-no-museu-vol1.png",
   },
   {
     title: "Um dia no Museu — Volume 2: Uma aventura pelo patrimônio cultural brasileiro",
@@ -92,7 +102,7 @@ const publications = [
     publisher: "Desalinho",
     year: "",
     type: "Material Didático",
-    cover: null,
+    cover: "/capas/um-dia-no-museu-vol2.png",
   },
   {
     title: "Um dia no Museu — Volume 3: A formação e o acervo de Numismática do Museu Histórico Nacional",
@@ -101,6 +111,15 @@ const publications = [
     year: "",
     type: "Material Didático",
     cover: "/capas/um-dia-no-museu-vol3.jpg",
+  },
+  {
+    title: "Um dia no Museu — Volume 4: O Mundo das Trocas — Do Escambo ao Digital",
+    authors: "",
+    publisher: "Univassouras / UFMS",
+    year: "",
+    type: "Material Didático",
+    cover: "/capas/um-dia-no-museu-vol4.png",
+    link: "https://drive.google.com/file/d/1YUJIk79qcAudG8epFsE50WKAejuxPpyG/view?usp=sharing",
   },
   {
     title: "Sistemas de Crenças, Mitos e Rituais na Antiguidade",
@@ -124,7 +143,7 @@ const publications = [
     publisher: "Desalinho",
     year: "",
     type: "Livro",
-    cover: null,
+    cover: "/capas/antiguidade-usos-passado-politicas.png",
   },
   {
     title: "Museus e Patrimônio Cultural: Perspectivas Locais, Contribuições Globais",
@@ -140,7 +159,7 @@ const publications = [
     publisher: "UFMS",
     year: "",
     type: "Manual",
-    cover: null,
+    cover: "/capas/arqueologia-manual-boas-praticas.png",
   },
   {
     title: "Encontros Transatlânticos: Diálogos em História, Patrimônio Cultural e Educação",
@@ -299,7 +318,7 @@ export default function PublicacoesPage() {
                     </p>
                   )}
                   <a
-                    href="https://www.atrivmufms.com/publicacoes"
+                    href={pub.link ?? "https://www.atrivmufms.com/publicacoes"}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{

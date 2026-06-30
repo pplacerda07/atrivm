@@ -34,7 +34,7 @@ export default function UmDiaNoMuseuPage() {
                 por meio de exposições itinerantes, palestras e oficinas práticas.
               </p>
               <p style={{ fontSize: "1.05rem", lineHeight: "1.85", color: "var(--color-text-muted)" }}>
-                O projeto já atendeu mais de <strong style={{ color: "var(--color-text)" }}>2.000 alunos</strong> em escolas de Costa Rica,
+                O projeto já atendeu mais de <strong style={{ color: "var(--color-text)" }}>4.000 alunos</strong> em escolas de Costa Rica,
                 Coxim, Anastácio, Aquidauana, Água Clara e Campo Grande.
               </p>
             </div>
@@ -48,7 +48,7 @@ export default function UmDiaNoMuseuPage() {
                   ["Financiamento", "CNPq/FNDCT/MCTI"],
                   ["Investimento", "R$ 125.000,00"],
                   ["Parceiro principal", "MHN, Rio de Janeiro"],
-                  ["Alunos atendidos", "2.000+"],
+                  ["Alunos atendidos", "4.000+"],
                   ["Municípios", "6+"],
                 ].map(([k, v]) => (
                   <div key={k} style={{ display: "flex", justifyContent: "space-between", padding: "0.6rem 0", borderBottom: "1px solid var(--color-border)", fontSize: "0.88rem" }}>
@@ -68,7 +68,7 @@ export default function UmDiaNoMuseuPage() {
           <div className="divider" />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.25rem" }}>
             {[
-              { icon: "📚", title: "3 Cartilhas", desc: "Materiais didáticos para alunos e professores sobre patrimônio cultural e numismática." },
+              { icon: "📚", title: "4 Cartilhas", desc: "Materiais didáticos para alunos e professores sobre patrimônio cultural e numismática." },
               { icon: "🎬", title: "Animações", desc: "Série de animações educativas sobre o MHN e o patrimônio brasileiro." },
               { icon: "📱", title: "Aplicativo mobile", desc: "Aplicativo interativo para exploração do patrimônio cultural." },
               { icon: "🎓", title: "Oficinas", desc: "Oficinas práticas de numismática e arqueologia realizadas nas escolas." },

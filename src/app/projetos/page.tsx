@@ -17,7 +17,7 @@ const projects = [
     href: "/projetos/um-dia-no-museu",
     title: "Um Dia no Museu",
     tag: "Extensão",
-    desc: "Projeto financiado pelo CNPq/MCTI que leva o Museu Histórico Nacional às escolas do Mato Grosso do Sul. Mais de 2.000 alunos atendidos.",
+    desc: "Projeto financiado pelo CNPq/MCTI que leva o Museu Histórico Nacional às escolas do Mato Grosso do Sul. Mais de 4.000 alunos atendidos.",
   },
   {
     href: "/projetos/animacoes",
