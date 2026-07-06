@@ -88,6 +88,7 @@ export default function Footer() {
               <Link href="/projetos/animacoes" className={styles.colLink}>Animações</Link>
               <Link href="/projetos/modelos-3d" className={styles.colLink}>Modelos 3D</Link>
               <Link href="/projetos/podcast" className={styles.colLink}>Podcast</Link>
+              <Link href="/projetos/acoes" className={styles.colLink}>Ações</Link>
               <Link href="/eventos" className={styles.colLink}>Eventos</Link>
             </nav>
           </div>

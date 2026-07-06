@@ -19,6 +19,7 @@ const projetosLinks = [
   { href: "/projetos/animacoes", label: "Animações" },
   { href: "/projetos/modelos-3d", label: "Modelos 3D" },
   { href: "/projetos/podcast", label: "Podcast" },
+  { href: "/projetos/acoes", label: "Ações" },
   { href: "/eventos", label: "Eventos" },
   { href: "/sites-periodicos", label: "Sites e Periódicos" },
 ];

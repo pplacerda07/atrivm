@@ -68,17 +68,27 @@ export default function UmDiaNoMuseuPage() {
           <div className="divider" />
           <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.25rem" }}>
             {[
-              { icon: "📚", title: "4 Cartilhas", desc: "Materiais didáticos para alunos e professores sobre patrimônio cultural e numismática." },
-              { icon: "🎬", title: "Animações", desc: "Série de animações educativas sobre o MHN e o patrimônio brasileiro." },
+              { icon: "📚", title: "4 Cartilhas", desc: "Materiais didáticos para alunos e professores sobre patrimônio cultural e numismática.", href: "https://www.ufms.br/cartilha-produzida-por-grupo-de-pesquisa-fica-entre-as-cinco-melhores-publicacoes-do-pais-em-premio-literario/" },
+              { icon: "🎬", title: "Animações", desc: "Série de animações educativas sobre o MHN e o patrimônio brasileiro.", href: "https://www.youtube.com/watch?v=8hnfz_tXXS8&t=1s" },
               { icon: "📱", title: "Aplicativo mobile", desc: "Aplicativo interativo para exploração do patrimônio cultural." },
-              { icon: "🎓", title: "Oficinas", desc: "Oficinas práticas de numismática e arqueologia realizadas nas escolas." },
-            ].map((item) => (
-              <div key={item.title} className="card" style={{ textAlign: "center" }}>
-                <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>{item.icon}</div>
-                <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "1rem", color: "var(--color-primary)", marginBottom: "0.5rem" }}>{item.title}</h3>
-                <p style={{ fontSize: "0.88rem", color: "var(--color-text-muted)", lineHeight: "1.6" }}>{item.desc}</p>
-              </div>
-            ))}
+              { icon: "🎓", title: "Oficinas", desc: "Oficinas práticas de numismática e arqueologia realizadas nas escolas.", href: "https://www.instagram.com/p/DYj2zPHET-P/?img_index=3" },
+            ].map((item) => {
+              const CardWrapper = item.href ? "a" : "div";
+              return (
+                <CardWrapper 
+                  key={item.title} 
+                  href={item.href}
+                  target={item.href ? "_blank" : undefined}
+                  rel={item.href ? "noopener noreferrer" : undefined}
+                  className="card" 
+                  style={{ textAlign: "center", textDecoration: "none", display: "block", color: "inherit" }}
+                >
+                  <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>{item.icon}</div>
+                  <h3 style={{ fontFamily: "var(--font-serif)", fontSize: "1rem", color: "var(--color-primary)", marginBottom: "0.5rem" }}>{item.title}</h3>
+                  <p style={{ fontSize: "0.88rem", color: "var(--color-text-muted)", lineHeight: "1.6" }}>{item.desc}</p>
+                </CardWrapper>
+              );
+            })}
           </div>
         </div>
       </section>

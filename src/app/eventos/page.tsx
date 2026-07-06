@@ -17,6 +17,14 @@ const destaque = {
 
 const events = [
   {
+    title: "II Escola de Verão Luso-Brasileira: Cultura, Património e Território",
+    desc: "A 2ª edição regressa entre 1 e 17 de julho de 2026, com foco em formação avançada, cooperação internacional e reflexão interdisciplinar sobre os desafios da cultura e do património. Reúne investigadores e estudantes portugueses e brasileiros para partilha de conhecimentos e atividades práticas no Teatro Romano de Braga.",
+    date: "1–17 jul. 2026",
+    type: "Curso",
+    status: "Em breve",
+    link: null,
+  },
+  {
     title: "Lançamento do Novo Site do ATRIVM / UFMS",
     desc: "O ATRIVM/UFMS apresenta seu novo site institucional como espaço de divulgação científica, reunindo projetos, acervo, eventos, publicações e parcerias em Arqueologia, História Antiga, Numismática e Humanidades Digitais.",
     date: "20 mai. 2026 · 10h",
