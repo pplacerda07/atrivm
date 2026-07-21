@@ -5,16 +5,25 @@ export const metadata: Metadata = {
   description: "Animações científicas do projeto Imago. ATRIVM UFMS.",
 };
 
-const series = [
+type Episodio = { title: string; link: string; platform: "instagram" | "youtube" };
+
+type Serie = {
+  name: string;
+  tag: string;
+  desc: string;
+  episodios: Episodio[];
+};
+
+const series: Serie[] = [
   {
     name: "Uma Moeda de Cada Vez",
     tag: "Numismática",
     desc: "Série sobre numismática greco-romana, explorando o significado político, religioso e cultural das moedas da Antiguidade.",
     episodios: [
-      "Legitimidade Imperial de Augusto",
-      "Sucessão Imperial: Caio e Lúcio",
-      "Batalha do Ácio",
-      "Signo de Capricórnio e a religiosidade na legitimação imperial",
+      { title: "Legitimidade Imperial de Augusto", link: "https://www.instagram.com/reel/CwoCsftp2EH/", platform: "instagram" },
+      { title: "Sucessão Imperial: Caio e Lúcio", link: "https://www.instagram.com/reel/C0-F5qkpInG/", platform: "instagram" },
+      { title: "Batalha do Ácio", link: "https://www.instagram.com/reel/C6WF_j1L6XW/", platform: "instagram" },
+      { title: "Signo de Capricórnio e a religiosidade na legitimação imperial", link: "https://www.instagram.com/reel/DYri-rap08e/", platform: "instagram" },
     ],
   },
   {
@@ -22,12 +31,17 @@ const series = [
     tag: "Patrimônio Cultural",
     desc: "Série sobre o Museu Histórico Nacional e o patrimônio cultural brasileiro, produzida no âmbito do projeto de extensão homônimo.",
     episodios: [
-      "Uma viagem pelos 100 anos do MHN",
-      "Uma aventura pelo patrimônio cultural brasileiro",
-      "A formação e o acervo de Numismática do MHN",
+      { title: "Uma viagem pelos 100 anos do MHN", link: "https://www.youtube.com/@CANALATRIVMUFMS", platform: "youtube" },
+      { title: "Uma aventura pelo patrimônio cultural brasileiro", link: "https://www.youtube.com/@CANALATRIVMUFMS", platform: "youtube" },
+      { title: "A formação e o acervo de Numismática do MHN", link: "https://www.youtube.com/@CANALATRIVMUFMS", platform: "youtube" },
     ],
   },
 ];
+
+const platformLabels = {
+  instagram: "Ver no Instagram →",
+  youtube: "Ver no YouTube →",
+};
 
 export default function AnimacoesPage() {
   return (
@@ -80,18 +94,18 @@ export default function AnimacoesPage() {
               </p>
               <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>
                 {serie.episodios.map((ep, i) => (
-                  <div key={ep} style={{ display: "flex", alignItems: "center", gap: "1rem", background: "var(--color-white)", border: "1px solid var(--color-border)", padding: "1rem 1.25rem" }}>
+                  <div key={ep.title} style={{ display: "flex", alignItems: "center", gap: "1rem", background: "var(--color-white)", border: "1px solid var(--color-border)", padding: "1rem 1.25rem" }}>
                     <span style={{ fontFamily: "var(--font-serif)", fontSize: "1.1rem", fontWeight: 700, color: "var(--color-gold)", minWidth: "2rem" }}>
                       {String(i + 1).padStart(2, "0")}
                     </span>
-                    <span style={{ fontSize: "0.95rem", color: "var(--color-text)" }}>{ep}</span>
+                    <span style={{ fontSize: "0.95rem", color: "var(--color-text)" }}>{ep.title}</span>
                     <a
-                      href="https://www.youtube.com/@CANALATRIVMUFMS"
+                      href={ep.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       style={{ marginLeft: "auto", fontSize: "0.82rem", fontWeight: 700, color: "var(--color-gold)", letterSpacing: "0.04em", textTransform: "uppercase", fontFamily: "var(--font-sans)" }}
                     >
-                      Ver no YouTube →
+                      {platformLabels[ep.platform]}
                     </a>
                   </div>
                 ))}

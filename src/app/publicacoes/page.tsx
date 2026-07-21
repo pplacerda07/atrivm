@@ -118,7 +118,7 @@ const publications: Publication[] = [
     publisher: "Univassouras / UFMS",
     year: "",
     type: "Material Didático",
-    cover: "/capas/um-dia-no-museu-vol4.png",
+    cover: null,
     link: "https://drive.google.com/file/d/1YUJIk79qcAudG8epFsE50WKAejuxPpyG/view?usp=sharing",
   },
   {
