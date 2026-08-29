@@ -12,7 +12,7 @@ type Publication = {
   year: string;
   type: string;
   cover: string | null;
-  link?: string;
+  link: string;
 };
 
 const publications: Publication[] = [
@@ -23,6 +23,7 @@ const publications: Publication[] = [
     year: "2020",
     type: "Livro",
     cover: "/capas/ensino-historia-antiga.jpg",
+    link: "https://drive.google.com/file/d/1w3GdSFBIDg_cJt_HPAi3IXaiKWc7uS_T/view",
   },
   {
     title: "Ensino de História: Teorias e Metodologias",
@@ -31,6 +32,7 @@ const publications: Publication[] = [
     year: "2020",
     type: "Livro",
     cover: "/capas/ensino-historia-teorias.jpg",
+    link: "https://drive.google.com/file/d/154zybgNSfjBLLjkax2boS7YSBa38jqpS/view",
   },
   {
     title: "Falas na Rede: Ensino e Pesquisa em História e Educação",
@@ -39,6 +41,7 @@ const publications: Publication[] = [
     year: "2020",
     type: "Livro",
     cover: "/capas/falas-na-rede.jpg",
+    link: "https://drive.google.com/file/d/1E6cz0khiVNduPgbXJpMoPus5BtmCBcoG/view",
   },
   {
     title: "Caminhos da Aprendizagem Histórica: Ensino de Pré-História e Antiguidade",
@@ -47,6 +50,7 @@ const publications: Publication[] = [
     year: "2021",
     type: "Livro",
     cover: "/capas/caminhos-aprendizagem.jpg",
+    link: "https://drive.google.com/file/d/1wVyvVH5f0eJ9UOXntM87sd_bz6mmsZyy/view?usp=sharing",
   },
   {
     title: "As Tabellae Defixionum da Região do Lácio (I AEC – II EC): Tradução, Análise Textual e Hábito Epigráfico",
@@ -55,6 +59,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/tabellae-defixionum.jpg",
+    link: "https://drive.google.com/file/d/1A9pOhG2mV84MUj4EDgjILo-eD-lGsla7/view?usp=sharing",
   },
   {
     title: "Experiências Religiosas no Mundo Antigo — Volume I",
@@ -63,6 +68,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/experiencias-religiosas-vol1.jpg",
+    link: "https://drive.google.com/file/d/1k2z8KD3Ax-0m-qJz1KMbQ5cMRTtbMwSd/view?usp=sharing",
   },
   {
     title: "Experiências Religiosas no Mundo Antigo — Volume II",
@@ -71,6 +77,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/experiencias-religiosas-vol2.jpg",
+    link: "https://drive.google.com/file/d/1cseiY7bK43pdgAq2H1hlG_vz1zPzYn4-/view?usp=sharing",
   },
   {
     title: "Corrupção, Crimes e Crises na Antiguidade",
@@ -79,6 +86,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/corrupcao-crimes-crises.jpg",
+    link: "https://drive.google.com/file/d/1T_cQTtpW545g1P2n22WnPeRK2I7RcW9G/view?usp=sharing",
   },
   {
     title: "Scholae: Estudos Interdisciplinares da Antiguidade",
@@ -87,6 +95,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/scholae.jpg",
+    link: "https://drive.google.com/file/d/1_TE0x2IeEA29pmBS9L3M3pYoXO3MT646/view?usp=sharing",
   },
   {
     title: "Um dia no Museu — Volume 1: Uma aventura pelo Museu Histórico Nacional para as turmas do Mato Grosso do Sul",
@@ -95,6 +104,7 @@ const publications: Publication[] = [
     year: "",
     type: "Material Didático",
     cover: "/capas/um-dia-no-museu-vol1.png",
+    link: "https://drive.google.com/file/d/1GAcP9G3e9xikZIXSs2z1n_Q9Dgqj05hq/view?usp=sharing",
   },
   {
     title: "Um dia no Museu — Volume 2: Uma aventura pelo patrimônio cultural brasileiro",
@@ -103,6 +113,7 @@ const publications: Publication[] = [
     year: "",
     type: "Material Didático",
     cover: "/capas/um-dia-no-museu-vol2.png",
+    link: "https://drive.google.com/file/d/1M2Oh1FoLu8618v3enuCFun0AdBwU_gta/view?usp=drive_link",
   },
   {
     title: "Um dia no Museu — Volume 3: A formação e o acervo de Numismática do Museu Histórico Nacional",
@@ -111,6 +122,7 @@ const publications: Publication[] = [
     year: "",
     type: "Material Didático",
     cover: "/capas/um-dia-no-museu-vol3.jpg",
+    link: "https://drive.google.com/file/d/1rjEdOnNemt0H4oCPY4gBqa3U-hFrdBy0/view?usp=drive_link",
   },
   {
     title: "Um dia no Museu — Volume 4: O Mundo das Trocas — Do Escambo ao Digital",
@@ -118,7 +130,7 @@ const publications: Publication[] = [
     publisher: "Univassouras / UFMS",
     year: "",
     type: "Material Didático",
-    cover: null,
+    cover: "/capas/um-dia-no-museu-vol4.png",
     link: "https://drive.google.com/file/d/1YUJIk79qcAudG8epFsE50WKAejuxPpyG/view?usp=sharing",
   },
   {
@@ -128,6 +140,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/sistemas-crencas.jpg",
+    link: "https://drive.google.com/file/d/1EF_sDUPUdV89IxLzWfIRtKbQQ7iCDdaE/view?usp=sharing",
   },
   {
     title: "Museus e Patrimônio Cultural em Mato Grosso do Sul: Pesquisa, Cultura, Educação e Identidade",
@@ -136,6 +149,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/museus-patrimonio-ms.jpg",
+    link: "https://drive.google.com/file/d/1PthtSpJdKHKzZ5haDlATRrcyrz5kWQld/view?usp=sharing",
   },
   {
     title: "Antiguidade e Usos do Passado: Políticas e Práticas Sociais",
@@ -144,6 +158,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/antiguidade-usos-passado-politicas.png",
+    link: "https://drive.google.com/file/d/1mxtHjhb4BQWcBJGykG0rKLnY_1EkccTw/view?usp=sharing",
   },
   {
     title: "Museus e Patrimônio Cultural: Perspectivas Locais, Contribuições Globais",
@@ -152,6 +167,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/museus-patrimonio-perspectivas.jpg",
+    link: "https://drive.google.com/file/d/1szPtZ8srt46pICB5IdfrWYeIhd1Lpcds/view?usp=sharing",
   },
   {
     title: "Arqueologia: Manual de Boas Práticas",
@@ -160,6 +176,7 @@ const publications: Publication[] = [
     year: "",
     type: "Manual",
     cover: "/capas/arqueologia-manual-boas-praticas.png",
+    link: "https://drive.google.com/file/d/1Vt6OO4nOVFVPV6RAUZacTDnCP0tGt8pa/view?usp=sharing",
   },
   {
     title: "Encontros Transatlânticos: Diálogos em História, Patrimônio Cultural e Educação",
@@ -168,6 +185,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/encontros-transatlanticos.jpg",
+    link: "https://drive.google.com/file/d/1aQI8xilaVrD6H6PDatyj92PE1UBZf1OL/view?usp=drive_link",
   },
   {
     title: "Imperialismo Romano em Sagunto: A Estrutura de Atitudes e Referências do Imperialismo Romano em Sagunto — Séculos II a.C. – I d.C.",
@@ -176,6 +194,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/imperialismo-romano-sagunto.jpg",
+    link: "https://drive.google.com/file/d/1Lc-Su9LLfYij05ZbUGUZK95oFTwMZVWH/view?usp=drive_link",
   },
   {
     title: "Caesar Augustus: Entre Práticas e Representações",
@@ -184,6 +203,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/caesar-augustus.jpg",
+    link: "https://drive.google.com/file/d/1S_sqUAvBBlDY9vmuiaqNLK6GQA5S5Ysy/view?usp=drive_link",
   },
   {
     title: "Relações de Poder: da Antiguidade ao Medievo / Relations of Power: From Antiquity to the Middle Ages — Vol. 1",
@@ -192,6 +212,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/relacoes-de-poder.jpg",
+    link: "https://drive.google.com/file/d/1jbUScAF8aX4sCGgAbiDKRLKAPsj80qqS/view?usp=drive_link",
   },
   {
     title: "TRIVIA: Estudos Interdisciplinares sobre as Práticas da Magia na Antiguidade — Vol. I",
@@ -200,6 +221,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/trivia.jpg",
+    link: "https://drive.google.com/file/d/1SBIUO2CjS41Z8gKLA-afdFnhLKqWO6hq/view?usp=sharing",
   },
   {
     title: "NUMISMA: Estudos Interdisciplinares sobre Numismática Antiga — Vol. 1",
@@ -208,6 +230,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/numisma.jpg",
+    link: "https://drive.google.com/file/d/17TrlDa2O9iBPcf1CEllPTj7qL7vcltx0/view?usp=sharing",
   },
   {
     title: "História em Quadrinhos na Perspectiva da Prática de Ensino",
@@ -216,6 +239,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/hq-pratica-ensino.jpg",
+    link: "https://editora.univassouras.edu.br/index.php/PT/article/view/4488",
   },
   {
     title: "História em Quadrinhos em Perspectiva para o Ensino de História",
@@ -224,6 +248,7 @@ const publications: Publication[] = [
     year: "",
     type: "Livro",
     cover: "/capas/hq-perspectiva.jpg",
+    link: "https://drive.google.com/file/d/1VTiwdPQ97f1u53dfCHHbxzSc8ZEdAv61/view?usp=drive_link",
   },
 ];
 
@@ -249,7 +274,7 @@ export default function PublicacoesPage() {
             </p>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "1.5rem" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 420px), 1fr))", gap: "1.5rem" }}>
             {publications.map((pub, i) => (
               <div key={pub.title} className="card" style={{ display: "flex", gap: "1.25rem", alignItems: "flex-start" }}>
                 <div style={{ flexShrink: 0 }}>
@@ -318,7 +343,7 @@ export default function PublicacoesPage() {
                     </p>
                   )}
                   <a
-                    href={pub.link ?? "https://www.atrivmufms.com/publicacoes"}
+                    href={pub.link}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
@@ -335,20 +360,6 @@ export default function PublicacoesPage() {
                 </div>
               </div>
             ))}
-          </div>
-
-          <div style={{ marginTop: "3rem", padding: "2rem", background: "var(--color-bg-section)", border: "1px solid var(--color-border)", textAlign: "center" }}>
-            <p style={{ fontSize: "1rem", color: "var(--color-text-muted)", marginBottom: "1.25rem" }}>
-              Para acessar todas as publicações disponíveis, visite o catálogo completo no site oficial.
-            </p>
-            <a
-              href="https://www.atrivmufms.com/publicacoes"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              Ver catálogo completo
-            </a>
           </div>
         </div>
       </section>
