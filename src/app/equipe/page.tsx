@@ -43,11 +43,14 @@ const researchers = [
 ];
 
 const graduandos = [
-  "Eduardo de Sousa Santos (UFMS / FACH)",
-  "João Gabriel da Silva Sanches (UFMS / FACH)",
+  "Alexandre Souza (UFMS/FACH)",
+  "Anna Barbosa (UFMS/FACH)",
+  "Eduardo Tomazini de Andrade João (UFMS/FACH)",
+  "Gilson Silveira (UFMS/FACH)",
+  "Henrique Borge Figueiró (UFMS/FACH)",
   "Natália Varone (UFMS/FACH)",
+  "Nelson Patelli (UFMS/FACH)",
   "Pedro Paulo Pereira Lacerda (UFMS / FACOM)",
-  "Vinícius Rotheman Felipe Ortega (UFMS / FACH)",
 ];
 
 const graduados = [
@@ -60,7 +63,6 @@ const mestrandos = [
   "João Guilherme Vieira Poiati (PPGAS/UFMS – Bols. CNPq)",
   "Luis Miguel Pereira Lacerda (PROFHIST / CAPES / UEMS)",
   "Miguel Ângelo O. de Almeida (PPGAS/UFMS – Bols. CAPES)",
-  "Pietra Ida Leone Sol (PPGAS/UFMS – Bols. CAPES)",
 ];
 
 const mestres = [
