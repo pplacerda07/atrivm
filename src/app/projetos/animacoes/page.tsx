@@ -23,7 +23,9 @@ const series: Serie[] = [
       { title: "Legitimidade Imperial de Augusto", link: "https://www.instagram.com/reel/CwoCsftp2EH/", platform: "instagram" },
       { title: "Sucessão Imperial: Caio e Lúcio", link: "https://www.instagram.com/reel/C0-F5qkpInG/", platform: "instagram" },
       { title: "Batalha do Ácio", link: "https://www.instagram.com/reel/C6WF_j1L6XW/", platform: "instagram" },
-      { title: "Signo de Capricórnio e a religiosidade na legitimação imperial", link: "https://www.instagram.com/reel/DYri-rap08e/", platform: "instagram" },
+      { title: "Segundo Triunvirato", link: "https://www.instagram.com/reel/C_gxa00pWFE/", platform: "instagram" },
+      { title: "A legitimação do poder de Augusto através do signo de capricórnio", link: "https://www.instagram.com/reel/DC1FM76OL0S/", platform: "instagram" },
+      { title: "Principado de Augusto e o culto de Marte", link: "https://www.instagram.com/reel/DYri-rap08e/", platform: "instagram" },
     ],
   },
   {
@@ -31,9 +33,10 @@ const series: Serie[] = [
     tag: "Patrimônio Cultural",
     desc: "Série sobre o Museu Histórico Nacional e o patrimônio cultural brasileiro, produzida no âmbito do projeto de extensão homônimo.",
     episodios: [
-      { title: "Uma viagem pelos 100 anos do MHN", link: "https://www.youtube.com/@CANALATRIVMUFMS", platform: "youtube" },
-      { title: "Uma aventura pelo patrimônio cultural brasileiro", link: "https://www.youtube.com/@CANALATRIVMUFMS", platform: "youtube" },
-      { title: "A formação e o acervo de Numismática do MHN", link: "https://www.youtube.com/@CANALATRIVMUFMS", platform: "youtube" },
+      { title: "Uma viagem pelos 100 anos do MHN", link: "https://www.youtube.com/watch?v=pBBAlS0XDoo", platform: "youtube" },
+      { title: "Uma aventura pelo patrimônio cultural brasileiro", link: "https://www.youtube.com/watch?v=v2FdibRU5f8", platform: "youtube" },
+      { title: "A formação e o acervo de Numismática do MHN", link: "https://www.youtube.com/watch?v=8hnfz_tXXS8", platform: "youtube" },
+      { title: "Humanidades Digitais, Acervos Museológicos e Patrimônio Cultural no ATRIVM", link: "https://www.youtube.com/watch?v=tkSojRr8Yto", platform: "youtube" },
     ],
   },
 ];
